@@ -20,6 +20,8 @@ If it doesn't report any error then go to each individual examples and run:
 
 ```shell
 ant
+# or if you like colored output
+ant -logger org.apache.tools.ant.listener.AnsiColorLogger
 ```
 
 The original shell scripts from upstream a kept as reference.
